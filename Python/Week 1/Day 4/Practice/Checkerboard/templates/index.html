@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkerboard</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+    <h1 style="background-color: {{color_two}}; color: {{color_one}};">*** CHECKERBOARD ***</h1>
+    <table>
+        <tbody>
+            {% for i in range(0,row) %}
+            <tr>
+                {% for x in range(0,col) %}
+                {% if (x+i) % 2 == 0 %}
+                <td style="background-color: {{color_one}};"></td>
+                {% else %}
+                <td style="background-color: {{color_two}};"></td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>

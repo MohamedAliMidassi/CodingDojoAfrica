@@ -1,0 +1,14 @@
+.f1 {
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.detail {
+    background-color: #10CAF0;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-decoration: solid;
+}
+.maincontainer{
+    background-color:#F7F7FF;
+}
+.container1{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin:1%;
+}
+.container2{
+    background-color: plum;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin:1%;
+}
+.container3{
+    background-color:#FCFCFC;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin:1%;
+}
+img{
+    height: 10%;
+    width: 20%;
+}

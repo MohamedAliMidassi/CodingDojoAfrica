@@ -1,0 +1,1 @@
+SELECT * FROM dojo_survey_schema.dojo;

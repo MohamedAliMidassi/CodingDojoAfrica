@@ -1,0 +1,60 @@
+Code Snippet 1 :    
+     
+     Varriable : hello / Value : Dojo
+
+Code Snippet 2 :
+     
+     Varriable : hello / Value : 15 
+      
+
+Code Snippet 3 :    
+
+     Varriable :  num / Value : 15 
+     
+      Varriable : result / Value : 18
+
+Code Snippet 4 :    
+     
+     Varriable : num / Value : 15
+
+      Varriable : resultat / Value : 10 
+
+Code Snippet 5 :
+     
+     Varriable : num / Value : 15
+     
+     Varriable : timesTwo / Value : 20  
+
+Code Snippet 6 :    
+
+     Varriable : resultat / Value : 16 
+
+Code Snippet 7 :    
+     
+     Varriable : num 1 / Value : 2 -> 3
+
+     Varriable : num 2 / Value : 3 -> 5
+
+Code Snippet 8 :
+     
+     Varriable : num 1 / Value : 2 -> 3
+
+     Varriable : num 2 / Value : 3 -> 5
+
+Code Snippet 9 :    
+
+     Varriable : num 1 / Value : 2 -> 3
+
+     Varriable : num 2 / Value : 3 -> 5
+
+     Varriable : resultat / Value : 13
+
+Code Snippet 10 :    
+
+     Varriable : num 1 / Value : 2 -> 3 -> 2
+
+     Varriable : num 2 / Value : 3 -> 1 -> 3
+
+     Varriable : sum / Value : 5-> 3 -> 6 -> 3 -> 5
+
+     Varriable : resultat / Value : 11

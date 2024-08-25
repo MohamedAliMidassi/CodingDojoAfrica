@@ -1,0 +1,16 @@
+.search{
+    color: greenyellow;
+    border-radius: 30%;
+    border-color: greenyellow;
+}
+.add{
+    color: aliceblue;
+    background-color: aqua;
+    border-radius: 60%;
+}
+.create{
+    color: aliceblue;
+    background-color: aqua;
+    border-color: black;
+    box-shadow: 12%;
+}

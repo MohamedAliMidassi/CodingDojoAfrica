@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: blue;
+            color: gray;
+            border: 1px solid gray;
+            height: 60px;
+            width: 60px;
+        }
+
+        .btn:hover {
+            background-color: yellow;
+        }
+
+        .btn2 {
+            background-color: red;
+            color: gray;
+            border: 1px solid gray;
+            height: 60px;
+            width: 60px;
+        }
+
+        .btn2:hover {
+            background-color: aqua;
+        }
+
+        .btns {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <div class="container">
+        <h1>counter</h1>
+        <p class="cont">{{session['num']}}</p>
+        <div class="btns">
+            <form action="/home" method="post">
+                <button type="submit" class="btn">Click</button>
+            </form>
+            <form action="/destroy_session" method="post">
+                <input type="submit" class="btn2" value="Reset" />
+            </form>
+            <form action="/plus2" method="post">
+            <input type="submit" class="btn" value="Plus2" /></form>
+        </div>
+    </div>
+
+</body>
+
+</html>

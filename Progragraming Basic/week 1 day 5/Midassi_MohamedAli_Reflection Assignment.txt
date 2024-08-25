@@ -1,0 +1,3 @@
+1) ifeel that my knowledge has growen not only in it domaine i feel tha my comunications skills and learnig has showen a big difference .
+2) i feel that learnig has changed in the period of programming basics because of videos learning platform and hellping my chort mate undrestand the problems.
+3) My mistake of the week that i did a chellenge in 12min because i thought my code was right and i reported it as mistake i read the code of the video and i found that my code was similar to it so then i found that i put a varriable y as lowercase and in the parameter is uppercase so that is my mistake of the week 

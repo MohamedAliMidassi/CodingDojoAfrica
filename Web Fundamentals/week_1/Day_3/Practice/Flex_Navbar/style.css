@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    background-color: #333333;
+    color: white;
+}
+.nav-title{
+    display: flex;
+    justify-self:flex-end;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap:30px;/* From w3School https://www.w3schools.com/cssref/css3_pr_gap.php*/
+}
+a{
+    color: white;
+    text-decoration: none;/* From w3School https://www.w3schools.com/css/css_text_decoration.asp*/
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    background-color: #17A2B8;
+    color: white;
+    box-shadow: black;
+}

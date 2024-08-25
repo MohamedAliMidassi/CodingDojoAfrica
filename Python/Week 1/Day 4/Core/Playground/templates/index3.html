@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+</head>
+
+<body>
+    <style>
+        body {
+            width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .blocks {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .blocks div {display: block;
+            height: 150px;
+            width: 150px;
+            background-color: {{color}};
+        }
+            
+            
+    </style>
+    <h1>Welcome</h1><br>
+    <div class="blocks">
+        {% for x in range(0,num)%}
+        <div></div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+Code Snippet 1 :    
+     
+     Varriable : auntContactInfo / Value : ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345]
+
+Code Snippet 2 :
+     
+     Varriable : produce / Value : ["apples", "oranges"]
+     
+     Varriable : frozen / Value : ["broccoli", "ice cream"] -> ["broccoli", "ice cream","hashbrowns"] 
+
+Code Snippet 3 :    
+
+     Varriable : movieLibrary / Value : ["Bambi", "E.T.", "Toy Story"] ->["Bambi", "E.T.", "Toy Story","Zoro"] -> ["Bambi", ""Beetlejuice"", "Toy Story","Zoro"]
+
+     
+
+
