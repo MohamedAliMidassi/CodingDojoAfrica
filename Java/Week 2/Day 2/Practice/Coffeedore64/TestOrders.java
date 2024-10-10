@@ -1,9 +1,14 @@
 public class TestOrders {
-    public static void main(String[] args) {
-        CoffeeKiosk menu = new CoffeeKiosk();
-        menu.addMenuItem("Mocha", 2.00);
-        menu.addMenuItem("Espresso", 1.50);
+    public static void main(String[] args){
+        Coffeekiosk coffeeKiosk = new Coffeekiosk();
 
-        menu.newOrder();
+        coffeeKiosk.addMenuItem("banana", 2.00);
+        coffeeKiosk.addMenuItem("coffee", 1.50);
+        coffeeKiosk.addMenuItem("latte", 4.50);
+        coffeeKiosk.addMenuItem("capuccino", 3.00);
+        coffeeKiosk.addMenuItem("muffin", 4.00);
+
+        coffeeKiosk.newOrder();
+
     }
 }
