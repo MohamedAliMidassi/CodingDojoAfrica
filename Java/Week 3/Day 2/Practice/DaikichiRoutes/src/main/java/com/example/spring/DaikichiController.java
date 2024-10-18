@@ -1,13 +1,21 @@
 package com.example.spring;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class DaikichiRoutesApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(DaikichiRoutesApplication.class, args);
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+@RestController
+public class DaikichiController {
+	@RequestMapping("/daikichi")
+	public String index() {
+		return "Welcome!";
 	}
-
+	
+	@RequestMapping("/daikichi/today")
+	public String page1() {
+		return "Today you will find luck in all your endeavors!";
+	}
+	@RequestMapping("/daikichi/tomorrow")
+	public String page2() {
+		return "Tomorrow, an opportunity will arise, so be sure to be open to new ideas!";
+	}
+	
 }
