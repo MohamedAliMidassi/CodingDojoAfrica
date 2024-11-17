@@ -1,0 +1,23 @@
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    height: 1080px; 
+    background-color: #f4f4f4; 
+}
+
+
+.secondaryblock, .secondaryblock2 {
+    text-align: center; 
+    border: 1px solid black; 
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 5px; 
+    background-color: #fff; 
+}
+
+.secondaryblock:hover, .secondaryblock2:hover {
+    background-color: #e0e0e0; 
+    cursor: pointer; 
+}
